@@ -1,29 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Archeage landing page</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Svarna-Hanka</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/w3.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<meta charset="utf-8">
 </head>
 <body>
-
-<header class="startup text-center text-white d-flex">
-	<div class="container my-auto">
-		<div class="row">
-			<div class="col-lg-12 h1-container">
-				<h1 class="text-uppercase faded">My Archeage landing page</h1>
+	<div id="wrapper">
+		<header class="logo-header">
+			<img id="logo" src="pictures/svarnahanka-big&light.png"></img>
+			<div id="right-item">
+				<ul class="contact-list">
+					<li class="contact-info"><img src="pictures/telo.png" class="contact-info"></img>774 415 361</li>
+					<li class="contact-info"><img src="pictures/email.png" class="contact-info"></img>svarna@alvit.cz</li>
+				</ul>
 			</div>
-			<div class="col-lg-12">
-				<button type="button" class="btn btn-primary">Get started!</button>
+		</header>
+		<div id="navbar" class="navbar">
+			<a href="index.html">ÚVOD</a>
+			<a href="booking.html">BOOKING</a>
+			<a href="moznosti.html">TURISTICKÉ MOŽNOSTI</a>
+			<a href="cenik.html">CENÍK SLUŽEB</a>
+			<a href="foto.html">FOTOGALERIE</a>
+			<a href="kontakt.html">KONTAKT</a>
+			<a href="novinky.html">NOVINKY</a>
+		</div>
+		<div id="imageSliderContainer" class="main-header w3-display-container">
+			<img class="imageSlider" src="pictures/sliderpics/slide1.png"></img>
+			<img class="imageSlider" src="pictures/sliderpics/slide2.png"></img>
+			<img class="imageSlider" src="pictures/sliderpics/slide3.png"></img>
+			<img class="imageSlider" src="pictures/sliderpics/slide4.jpg"></img>
+			<button id="arrowButtonOne" class="arrow-button w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button id="arrowButtonTwo" class="arrow-button w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+		</div>
+		<div id="content-container">
+			<div class="content">
+				<h3>O nás</h3>
+				<p>Švarnou Hanku rozvíjí a provozuje parta nadšenců, i proto je naplněna pohodovou rodinnou atmosférou. Nabízíme ubytovací zázemí až pro skupinu 50 hostů domácí kuchyni, občerstvení a nocleh pro všechny kolemjdoucí, ať už jste aktivní turisté, rodiče s dětmi a pejskem, nebo jen ztracená duše hledající úkryt.
+				</p>
+				<p>Švarná Hanka se nachází v nádherném prostředí klimaticky ozdravných Moravskoslezských Beskyd v chráněné krajinné oblasti na turistické trase po nejkrásnější hřebenovce v Beskydech mezi Gruněm a Bílým Křížem. Zde nás najdete na mapě (odkaz na mapu) a zde prozkoumejte turistické možnosti v okolí. Jedete autobusem? Vystupte na zastávce Staré Hamry – most nebo Staré Hamry - Stýskalonka.
+				</p>
+				<p>
+					V červenci a srpnu máme otevřeno celý týden, zbytek roku od čtvrtka do neděle.
+				</p>
+				<p>
+					Wi-Fi, parkování, voda pro pejsky, úsměv a dobré rady ZDARMA.
+				</p>
+				<h3>Nabídka</h3>
+				<p>
+					Lůžkovou kapacitu 45 lůžek je možno rozšířit pomocí přistýlek. Pro školy (lyžařský výcvik, škola v přírodě, výlet), svatby, rodinné oslavy a větší skupiny hostů nabízíme individuální smluvní ceny i podmínky pobytu. Stačí využít náš e-mail, telefon nebo kontaktní formulář.
+				</p>
+				<h3>Zajímavosti o Švarné Hance</h3>
+				<p>
+					Švarná Hanka je nejstarší horskou chatou v Beskydech, jejíž zrod sahá až do poloviny 19. století. Do historie se Švarná Hanka zapsala především tím, že v době 1. světové války poskytovala úkryt beskydskému bardovi a básníku Petru Bezruči, jehož židle vás společně s dalším starožitným nábytkem a ohněm z kachlových kamen zavede do starých časů.
+				</p>
+				<p>
+					Poloha chaty poskytuje ideální podmínky pro noční sledování oblohy, je totiž netemnějším místem v České republice. Švarná Hanka pravidelně organizuje pozorování noční oblohy s odborným výkladem našeho hvězdáře, aktuální informace o dění a akcích sledujte v našich aktualitách (odkaz na aktuality), nebo na našem Facebooku.
+				</p>
 			</div>
 		</div>
+		<footer id="footer" class="content">
+			<div id="footer-up">
+				<div class="footer-left">
+					<p>Copyright © Švarná Hanka. All rights reserved.</p>
+					<p>This website and its content was created for Švarná Hanka.</p>
+				</div>
+				<div class="footer-right">
+					<p>Švarná Hanka Staré Hamry 69 Grůň 739 15 Česká republika</p>
+					<p>+420 774 415 361 svarna@alvit.cz</p>
+				</div>
+			</div>
+			<hr id="footerlinebreak">
+			<div class="footer-bottom">
+				<p>Developed by <b>Mait Jurask</b>, Designed by Timo Evrecht, Administered by Kaur Nõu, Assisted by Timur Tammberg</p>
+			</div>
+		</footer>
 	</div>
-</header>
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+	<script type="text/javascript" src="js/imageslider.js"></script>
+	<script type="text/javascript" src="js/navbar.js"></script>
 </body>
 </html>
